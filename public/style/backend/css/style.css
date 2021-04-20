@@ -1,0 +1,75 @@
+.autocomplete {
+    /*the container must be positioned relative:*/
+    position: relative;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+    /*when hovering an item:*/
+    background-color: #e9e9e9;
+}
+.autocomplete-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+
+#table-header .bmd-form-group{
+    position: unset;
+}
+
+#margin-top-buttom{
+
+    margin: 20px 0px;
+}
+
+#padding-right-left{
+
+    padding: 0 20px;
+}
+
+#report-by-btn{
+
+    margin: 20px 0;
+    background-color: #ddd;
+    padding: 10px 0;
+}
+
+#offer-type, #offer-discount, #offer-contact, #backBtn, #offer-submit-btn{
+
+    display: none;
+    margin-left: 5px;
+}
+
+#offer-discount{
+
+    display: unset;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0.25rem;
+    background-color: #007793;
+    color: #fff;
+    margin-left: 10px;
+}
+
+#offer-submit-btn{
+    margin-top: 0;
+}
+

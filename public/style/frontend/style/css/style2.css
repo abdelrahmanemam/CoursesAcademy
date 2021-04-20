@@ -1,0 +1,402 @@
+body{
+    background-color: #ebebeb;
+}
+#header{
+
+    background-color: #2594e3;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+#content{
+
+    padding: 40px;
+    background-color: #ebebeb;
+}
+
+#home-product-head{
+
+    margin-bottom: 20px;
+}
+
+#home-product-head .form-control{
+
+    width: auto;
+    height: 35px;
+    padding-top: 1px;
+}
+
+#home-product-head .btn-primary{
+
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+#home-product-head input{
+
+    display: inline-block;
+}
+
+#home-product{
+
+    background-color: #fff;
+    padding: 20px;
+    height: 525px;
+    overflow: auto;
+}
+
+#home-product h6{
+
+    font-size: 24px;
+    color: #dc3545;
+}
+
+#home-recite{
+
+    padding: 20px;
+}
+
+#home-recite h3{
+
+    margin-bottom: 20px;
+}
+
+.card-img, .card-img-top{
+
+    height: 85px;
+}
+
+#home-recite{
+
+    background-color: #fff;
+    padding: 20px;
+    height: 525px;
+    overflow: auto;
+}
+
+#menu{
+
+    padding: 0;
+    margin-left: 20px;
+}
+
+#menu i{
+
+    font-size: 24px;
+    color: #fff;
+}
+/**
+* Menu
+*/
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 250px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: -250px;
+    background-color: #343a40; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    background-color: #2594e3;
+    margin-bottom: 1px;
+}
+
+.sidenav a:first-child{
+
+    color: #fff;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.sidenav a:first-child:hover{
+
+    color: #fff;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #fbfbfb;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+}
+
+#mySidenav i{
+    margin-right: 5px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/**
+* End Menu
+*/
+#home-total{
+
+    font-size: 24px;
+    color: #66bfff;
+}
+#home-total span{
+
+    font-size: 18px;
+    color: #2594e3;
+}
+
+#home-recite .btn-danger{
+
+    width: 100%;
+}
+
+#header img{
+
+    max-width: 35px;
+    margin-right: 20px;
+}
+
+#login-menu .dropdown-menu{
+
+    left: -35px !important;
+}
+
+.table .img-thumbnail{
+
+    max-width: 80px;
+    border-radius: 4px;
+    padding: 0;
+    max-height: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+.nav-pills .nav-link{
+    font-size: 14px;
+}
+
+#product-category{
+    background-color: #fbfbfb;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#product-category .card img{
+
+    max-height: 50px;
+}
+
+#product-category .card-title{
+
+    font-size: 14px;
+}
+
+#product-category .card-body{
+    padding: 0.25rem;
+    text-align: center;
+}
+
+#home-product-content .card-img{
+    height: 90px;
+}
+
+#home-product-content .card-title{
+
+    font-size: 12px;
+}
+
+
+#home-product-content .card-body{
+    padding: 5px;
+}
+
+.card-img, .card-img-bottom{
+    border-bottom-right-radius: 0;
+}
+
+.card-img, .card-img-top{
+    border-top-right-radius: 0;
+}
+
+#home-product-content .card-text{
+
+    font-size: 20px;
+}
+
+#home-product-content .text-muted{
+
+    color: red !important;
+}
+
+#checkoutTable i{
+
+    font-size: 24px;
+}
+
+#checkoutTable td{
+
+    font-size: 13px;
+}
+
+#loadingImage{
+
+    display: none;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#loading{
+
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 75px;
+    background-color: #fbfbfb;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#successImage{
+
+    display: none;
+    background-color: #f7f7f7;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.modal-dialog{
+
+    max-width: 600px;
+}
+
+#calculator-body .col-md-3{
+
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#calculator-head .col-md-3{
+
+    background-color: #c82333;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #c82333;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#calculator-head .col-md-3:first-child{
+    background-color: #ccc;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#calculator-head .col-md-6{
+
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#calculator #total-value{
+
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #c82333;
+}
+
+#calculator-head input{
+
+    border: 0;
+    text-align: center;
+}
+
+#calculator-head .form-control:focus{
+
+    box-shadow: none;
+}
+
+#clearBtn{
+
+    background-color: unset;
+    color: #fff;
+    border: 0;
+}
+
+#product-image img{
+
+    max-height: 72px;
+}
+
+#home-product-content .col-md-3{
+    margin-bottom: 10px;
+}
+
+.fade:not(.show){
+
+    display: none;
+}
+
+#custom-product .nav{
+
+    flex-wrap: unset;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    scrollbar-color: #0A4C95 #C2D2E4;
+
+}
+
+#custom-product .nav::-webkit-scrollbar {
+    height: 4px;              /* height of horizontal scrollbar ← You're missing this */
+    width: 4px;               /* width of vertical scrollbar */
+    border: 1px solid #333;
+}
+
+#custom-product .nav::-webkit-scrollbar-thumb:horizontal{
+    background: #000;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
